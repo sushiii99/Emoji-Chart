@@ -1,0 +1,63 @@
+
+.title-container h3 {
+    font-size: 28px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    padding-bottom: 20px;
+}
+
+.title-container h4 {
+    font-size: 20px;
+    color: #442944a3;
+    /* text-shadow: 0px 1px 0px  rgba(0, 0, 0, 0.5);   */
+    
+}
+
+.efecto-vidrio {
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    border-radius: 8px;
+}
+
+.emoji-container {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.emoji-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px) ;
+    gap: 10px;
+    justify-items: center !important;
+}
+
+.emoji-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emoji {
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 50px; /* Ajusta el tamaño según sea necesario */
+}
+
+.emoji:hover {
+    transform: scale(1.2);
+}
+
+.message {
+    font-size: 18px;
+    margin-top: 30px;
+    width: 60%;
+    height: 30%;
+    margin-bottom: 60px;
+    color:rgb(0, 0, 0);
+}
